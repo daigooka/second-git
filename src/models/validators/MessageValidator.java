@@ -24,13 +24,13 @@ public class MessageValidator {
     }
 
      //タイトルの必須入力チェック
-    private static String validateTitle(String title) {
-        if(title == null || title.equals("")) {
-            return "タイトルを入力してください。";
-        }
+    //private static String validateTitle(String title) {
+    //    if(title == null || title.equals("")) {
+    //        return "タイトルを入力してください。";
+    //    }
 
-        return "";
-    }
+    //    return "";
+    //}
 
     // タスクの必須入力チェック
     private static String validateContent(String content) {
